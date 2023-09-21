@@ -1,0 +1,63 @@
+Difference between Document and window object: 
+====================================
+
+DOCUMENT OBJECT 
+----------------------------
+
+* It represents the content for the webpage that gets loaded on the browser and provides the methods to query and modify the structure of the document. 
+
+* Its scope is limited to the webpages it represents. 
+
+* The various properties of the DOM can be returned or get by utilizing the document object. 
+
+* Document object is part of the Browser Object Model and Document Object Model. 
+
+* The programmer can access the document from the window with the help of “window.document”. 
+
+* Loaded in the window 
+
+* The syntax for Document Object is:  “document.propertyName” .
+
+WINDOW OBJECT 
+------------------------
+
+* It identifies the browser tab that contains the webpage and handles events related to the window, such as resizing, scrolling or closing. 
+
+* The scope can extend beyond the current document to a tab of the browser. 
+
+* Properties for window objects are not accessible using the document object. 
+
+* It is only part of the Browser Object Model. 
+
+* It can also access by utilizing the  “window.window”. 
+
+* Loaded in browser 
+
+* The syntax for Window Object is: “window.propertyName” .
+
+
+Window Object :
+============
+^ The window object also provides the “browser window” functionality. 
+^ The window object has the majority of the properties like, innerWidth, innerHeight, name, if it has been closed, it’s parents and more. 
+^ The window object is the topmost object in the DOM hierarchy. 
+^ It represents browser.window or frame that displays the contents of a webpage. 
+^ The browser automatically creates a window object when a window appears on the screen. 
+^ All browsers support the window object. 
+
+Document Object :
+============= 
+^ You can use the DOM to change the document’s structure, style or content. 
+^ The document actually gets loaded inside the window object and has the properties available to it like title, URL, cookie, etc. 
+^ A document object is an object in JavaScript. 
+^ It represents the HTML Document, and it is displayed in a window. 
+^ The document object is the root node of the HTML document, and it is a property of the window object. 
+^ You can access the document object with window.document or just document. 
+
+
+
+
+
+
+
+
